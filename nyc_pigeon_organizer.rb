@@ -2,7 +2,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
 hash.each_with_object({}) do |(key, value), final_array|
   binding.pry
-value.each do |inner
+value.each do |inner_key, names|
 
  final_array
 end             
