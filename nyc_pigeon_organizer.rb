@@ -10,7 +10,7 @@ names.each do |name|
   if !final_array[name][key]
     final_array[name][key] = []
   end
-  final_array[name][key].push()
+  final_array[name][key].push(inner_key)
   binding.pry
 end
  final_array
