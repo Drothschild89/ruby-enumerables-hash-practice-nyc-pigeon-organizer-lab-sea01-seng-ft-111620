@@ -9,6 +9,7 @@ names.each do |name|
   end
   if !final_array[name][key]
     final_array[name][key] = []
+  end
   binding.pry
 end
  final_array
